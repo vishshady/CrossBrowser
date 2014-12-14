@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="75442" started-at="2014-10-12T13:43:46Z" finished-at="2014-10-12T13:45:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="75442" started-at="2014-10-12T13:43:46Z" finished-at="2014-10-12T13:45:02Z">
+      <class name="crossBrowser.Html">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:crossBrowser.Html@47ad40]" name="setUp" is-config="true" duration-ms="31" started-at="2014-10-12T06:43:46Z" finished-at="2014-10-12T06:43:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="actual(java.lang.String)[pri:0, instance:crossBrowser.Html@47ad40]" name="actual" duration-ms="34700" started-at="2014-10-12T06:43:46Z" data-provider="test1" finished-at="2014-10-12T06:44:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actual -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:crossBrowser.Html@47ad40]" name="tearDown" is-config="true" duration-ms="516" started-at="2014-10-12T06:44:21Z" finished-at="2014-10-12T06:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:crossBrowser.Html@47ad40]" name="setUp" is-config="true" duration-ms="0" started-at="2014-10-12T06:44:21Z" finished-at="2014-10-12T06:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="actual(java.lang.String)[pri:0, instance:crossBrowser.Html@47ad40]" name="actual" duration-ms="38861" started-at="2014-10-12T06:44:21Z" data-provider="test1" finished-at="2014-10-12T06:45:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[googlechrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actual -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:crossBrowser.Html@47ad40]" name="tearDown" is-config="true" duration-ms="1317" started-at="2014-10-12T06:45:00Z" finished-at="2014-10-12T06:45:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- crossBrowser.Html -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
